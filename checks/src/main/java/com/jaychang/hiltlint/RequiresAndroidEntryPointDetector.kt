@@ -356,8 +356,7 @@ class RequiresAndroidEntryPointDetector : Detector(), SourceCodeScanner, XmlScan
 
     companion object {
         private const val ANNOTATION_ANDROID_ENTRY_POINT = "dagger.hilt.android.AndroidEntryPoint"
-        // todo jay update
-        private const val ANNOTATION_REQUIRES_ANDROID_ENTRY_POINT = "com.example.lint.checks.annotation.RequiresAndroidEntryPoint"
+        private const val ANNOTATION_REQUIRES_ANDROID_ENTRY_POINT = "com.jaychang.hiltlint.RequiresAndroidEntryPoint"
         private const val ANNOTATION_HILT_VIEW_MODEL = "dagger.hilt.android.lifecycle.HiltViewModel"
         private const val CLASS_APPLICATION = "android.app.Application"
         private const val CLASS_ACTIVITY = "androidx.activity.ComponentActivity"
